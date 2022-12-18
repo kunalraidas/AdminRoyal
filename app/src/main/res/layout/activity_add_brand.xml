@@ -1,9 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:cardCornerRadius="10dp"
     tools:context=".activity.AddBrandActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+   <RelativeLayout
+       android:layout_margin="5dp"
+       android:id="@+id/addBrand"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/primary_color">
+
+       <TextView
+           android:id="@+id/brand_id"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Brand Id : "
+           android:textColor="@color/black"
+           android:textSize="20sp"
+           android:layout_margin="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_brandId"
+            android:layout_toRightOf="@id/brand_id"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+       <TextView
+           android:id="@+id/brand_name"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Brand Name :"
+           android:textColor="@color/black"
+           android:textSize="20sp"
+           android:layout_below="@+id/brand_id"
+           android:layout_margin="10sp"/>
+
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@+id/brand_name"
+           android:id="@+id/edt_brandName"
+           android:background="@color/white"
+           android:textSize="20sp"
+           android:layout_below="@+id/edt_brandId"
+           android:layout_margin="10dp"/>
+
+
+       <Button
+           android:id="@+id/add_brand"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:text="Add Brand"
+           android:textSize="20sp"
+           android:background="@color/white"
+           android:textColor="@color/black"/>
+
+
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
