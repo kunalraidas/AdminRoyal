@@ -29,5 +29,7 @@
     <string name="home_title">Hello World!</string>
     <string name="home_sub_title">Welcome to home</string>
     <string name="btn_logout">LOGOUT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
