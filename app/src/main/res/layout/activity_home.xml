@@ -6,7 +6,8 @@
     tools:context=".HomeActivity"
     android:orientation="vertical"
     android:padding="20dp"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@color/white">
 
   <TextView
       android:layout_width="match_parent"
