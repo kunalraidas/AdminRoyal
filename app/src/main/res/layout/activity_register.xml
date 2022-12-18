@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity"
     android:padding="20dp">
-
     <TextView
         android:id="@+id/register_title"
         android:layout_width="match_parent"
