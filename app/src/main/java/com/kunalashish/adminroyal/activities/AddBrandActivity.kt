@@ -1,12 +1,12 @@
-package com.kunalashish.adminroyal.activity
+package com.kunalashish.adminroyal.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kunalashish.adminroyal.R
 
-class MainActivity : AppCompatActivity() {
+class AddBrandActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_add_brand)
     }
 }

@@ -1,4 +1,4 @@
-package com.kunalashish.adminroyal.activity
+package com.kunalashish.adminroyal.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

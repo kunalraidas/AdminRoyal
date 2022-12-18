@@ -22,7 +22,7 @@
     </style>
     <style name="ButtonGreen">
         <item name="android:background">@drawable/bg_button</item>
-        <item name="android:backgroundTint" tools:targetApi="lollipop" tools:ignore="NewApi">@color/primary_color</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/primary_color</item>
         <item name="android:fontFamily">@font/montserrat</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">14sp</item>
