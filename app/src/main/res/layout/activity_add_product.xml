@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:background="@color/white"
+            android:layout_marginRight="10dp"
             android:layout_toRightOf="@+id/product_id"
             android:textColor="@color/black"/>
 
@@ -49,6 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/product_name"
+            android:layout_marginRight="10dp"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:background="@color/white"
@@ -90,11 +92,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/edt_product_desc"
-            android:textSize="20sp"
             android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
             android:layout_toRightOf="@+id/txt_brand_id"
             android:background="@color/white"
-            android:textColor="@color/black" />
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/category_name"
@@ -107,6 +110,7 @@
             android:layout_marginTop="20dp"/>
 
         <EditText
+            android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/edt_brand_id"
@@ -127,9 +131,11 @@
             android:textColor="@color/black"
             android:layout_below="@+id/category_name"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="10dp"/>
+            android:padding="5dp"
+            android:layout_marginLeft="20dp"/>
 
         <Button
+            android:padding="5dp"
             android:id="@+id/addColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -139,10 +145,11 @@
             android:background="@color/white"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/addMobile"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="20dp"/>
 
 
         <Button
+            android:padding="5dp"
             android:id="@+id/addAccessories"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -152,7 +159,7 @@
             android:textColor="@color/black"
             android:layout_marginTop="20dp"
             android:layout_below="@+id/addColor"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="20dp"/>
 
 
     </RelativeLayout>

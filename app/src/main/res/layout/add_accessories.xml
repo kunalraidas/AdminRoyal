@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_button"
+    android:backgroundTint="@color/primary_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/access_id"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_button"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Accessories Id:"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:background="@drawable/bg_text_field"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/access_name"
+        android:orientation="vertical"
+        android:background="@drawable/bg_button"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Accessories Name:"
+            android:textColor="@color/black"/>
+
+        <EditText
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_text_field"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/specification"
+        android:orientation="vertical"
+        android:background="@drawable/bg_button"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Specification :"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:background="@drawable/bg_text_field"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/price"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_button"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Price:"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:background="@drawable/bg_text_field"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_Accessories"
+        android:text="Add Accessories"
+        android:background="@drawable/bg_button"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>

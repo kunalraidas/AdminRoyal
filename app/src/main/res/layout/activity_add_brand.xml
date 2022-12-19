@@ -1,71 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:background="@color/primary_color"
+    android:layout_gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:cardCornerRadius="10dp"
-    tools:context=".activities.AddBrandActivity">
+    tools:context=".activities.Add_Brand_Activity">
 
-   <RelativeLayout
-       android:layout_margin="5dp"
-       android:id="@+id/addBrand"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:background="@color/primary_color">
 
-       <TextView
-           android:id="@+id/brand_id"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Brand Id : "
-           android:textColor="@color/black"
-           android:textSize="20sp"
-           android:layout_margin="10dp"/>
+        <LinearLayout
 
-        <EditText
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edt_brandId"
-            android:layout_toRightOf="@id/brand_id"
-            android:background="@color/white"
-            android:textColor="@color/black"
+            android:background="@drawable/bg_button"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brand Id"
+                android:textSize="20sp"
+                android:layout_margin="10dp"/>
+
+            <EditText
+                android:background="#5F79AB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:autofillHints="brand_id"
+                android:inputType="number" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand Id"
             android:textSize="20sp"
             android:layout_margin="10dp"/>
 
-       <TextView
-           android:id="@+id/brand_name"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Brand Name :"
-           android:textColor="@color/black"
-           android:textSize="20sp"
-           android:layout_below="@+id/brand_id"
-           android:layout_margin="10sp"/>
+        <EditText
+            android:background="#5F79AB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:autofillHints="brand_id"
+            android:inputType="number" />
 
 
-       <EditText
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:layout_toRightOf="@+id/brand_name"
-           android:id="@+id/edt_brandName"
-           android:background="@color/white"
-           android:textSize="20sp"
-           android:layout_below="@+id/edt_brandId"
-           android:layout_margin="10dp"/>
+    </LinearLayout>
 
 
-       <Button
-           android:id="@+id/add_brand"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_centerInParent="true"
-           android:text="Add Brand"
-           android:textSize="20sp"
-           android:background="@color/white"
-           android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Brand"
+            android:textSize="20sp"
+            android:background="@drawable/bg_button"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:padding="10dp"/>
 
 
-   </RelativeLayout>
 
-</androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
