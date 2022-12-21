@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="@id/login_title" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/email_container"
+        android:id="@+id/emailContainor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -47,7 +47,7 @@
         app:startIconDrawable="@drawable/ic_circle_account">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_Email"
+            android:id="@+id/edtEmailAddress"
             style="@style/TextInputEditText"
             android:textColor="@color/black"
             android:layout_width="match_parent"
@@ -58,15 +58,20 @@
 
     <!--    3 PASSWORD -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password_container"
+        android:id="@+id/passwordContainor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:hint="@string/login_password"
+        app:passwordToggleTint="@color/black"
+        app:passwordToggleEnabled="true"
+        app:counterMaxLength="16"
+        app:counterTextColor="@color/black"
+        app:counterEnabled="true"
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_container"
+        app:layout_constraintTop_toBottomOf="@id/emailContainor"
         app:startIconDrawable="@drawable/ic_lock">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -92,7 +97,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_container"/>
+        app:layout_constraintTop_toBottomOf="@id/passwordContainor"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
