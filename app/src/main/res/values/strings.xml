@@ -24,7 +24,7 @@
         <font color="#00C9B8">Register </font>if you already have an account</string>
     <string name="register_fullname">Your Name</string>
     <string name="register_email">Email</string>
-    <string name="register_username">Your username</string>
+    <string name="register_username">Phone Number</string>
     <string name="register_have_account">I already have an account <font color="#00C988">Login</font></string>
     <string name="home_title">Hello World!</string>
     <string name="home_sub_title">Welcome to home</string>
