@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
+    tools:context=".activities.RegisterActivity"
     android:padding="20dp"
     android:background="@color/white">
     <TextView
@@ -37,7 +37,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_fullname"
+        android:id="@+id/fullname_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -49,17 +49,17 @@
         app:startIconDrawable="@drawable/ic_account">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_fullname"
+            android:id="@+id/edt_fullname"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-           />
+            android:textColor="@color/black"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--    3 PASSWORD -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_email"
+        android:id="@+id/EmailContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -67,11 +67,11 @@
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_fullname"
+        app:layout_constraintTop_toBottomOf="@id/fullname_container"
         app:startIconDrawable="@drawable/ic_email">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_email"
+            android:id="@+id/EdtEmail"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -81,19 +81,22 @@
 
     <!--    4 password -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_password"
+        android:id="@+id/passwordContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:hint="@string/login_password"
         style="@style/TextInputLayout"
+        app:counterMaxLength="16"
+        app:counterEnabled="true"
+        app:passwordToggleEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_email"
+        app:layout_constraintTop_toBottomOf="@id/EmailContainer"
         app:startIconDrawable="@drawable/ic_lock">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_password"
+            android:id="@+id/edtPassword"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,7 +105,7 @@
 
     <!--    5 confirm_password-->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_confirm_password"
+        android:id="@+id/confirmPasswordContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -110,11 +113,11 @@
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_password"
+        app:layout_constraintTop_toBottomOf="@id/passwordContainer"
         app:startIconDrawable="@drawable/ic_lock">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_confirm_password"
+            android:id="@+id/EdtConfirmPassword"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
