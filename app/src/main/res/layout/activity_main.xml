@@ -16,7 +16,7 @@
         android:fontFamily="@font/montserrat"
         android:text="@string/started_title"
         android:textColor="@color/white"
-        android:textSize="36dp"
+        android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,10 +43,9 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/illustration_img"
         android:src="@drawable/illustration_started"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -55,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:text="@string/btn_login"
+        android:textAlignment="center"
         style="@style/ButtonWhite"
         app:layout_constraintBottom_toTopOf="@+id/btn_register"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
         android:text="@string/btn_register"
+        android:textAlignment="center"
         style="@style/ButtonWhite"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
