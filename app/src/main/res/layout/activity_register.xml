@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.RegisterActivity"
+    tools:context=".RegisterActivity"
     android:padding="20dp"
     android:background="@color/white">
     <TextView
@@ -37,7 +37,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/name_container"
+        android:id="@+id/til_fullname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -49,17 +49,17 @@
         app:startIconDrawable="@drawable/ic_account">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_name"
+            android:id="@+id/et_fullname"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"/>
+           />
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <!--    3 PASSWORD -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/email_container"
+        android:id="@+id/til_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -67,43 +67,21 @@
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/name_container"
+        app:layout_constraintTop_toBottomOf="@id/til_fullname"
         app:startIconDrawable="@drawable/ic_email">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_Email"
-            style="@style/TextInputEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <!--    3 username -->
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/username_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:hint="@string/register_username"
-        style="@style/TextInputLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_container"
-        app:startIconDrawable="@drawable/ic_circle_account">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_userName"
+            android:id="@+id/et_email"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
+
     <!--    4 password -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/password_container"
+        android:id="@+id/til_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -111,11 +89,11 @@
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/username_container"
+        app:layout_constraintTop_toBottomOf="@id/til_email"
         app:startIconDrawable="@drawable/ic_lock">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_password"
+            android:id="@+id/et_password"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -124,7 +102,7 @@
 
     <!--    5 confirm_password-->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/confirm_password_container"
+        android:id="@+id/til_confirm_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -132,11 +110,11 @@
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_container"
+        app:layout_constraintTop_toBottomOf="@id/til_password"
         app:startIconDrawable="@drawable/ic_lock">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edt_confirm_password"
+            android:id="@+id/et_confirm_password"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
