@@ -3,14 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/drawable/bg_button.xml" value="0.172" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/drawable/bg_text_field.xml" value="0.166" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/activity_add_brand.xml" value="0.125" />
-        <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/activity_home.xml" value="0.125" />
+        <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/activity_home.xml" value="0.152" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/activity_main.xml" value="0.125" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/add_colour.xml" value="0.125" />
+        <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/drawer_header.xml" value="0.17527173913043478" />
         <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/fragment_delivery.xml" value="0.125" />
+        <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/layout/fragment_product.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/AASHISH RAJPUT/OneDrive/Desktop/Collage projects/AdminApp/app/src/main/res/menu/menu_drawer.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/KUNAL/AndroidStudioProjects/AdminRoyal/app/src/main/res/layout/activity_home.xml" value="0.2140625" />
         <entry key="..\:/Users/KUNAL/AndroidStudioProjects/AdminRoyal/app/src/main/res/layout/activity_login.xml" value="0.2140625" />
         <entry key="..\:/Users/KUNAL/AndroidStudioProjects/AdminRoyal/app/src/main/res/layout/activity_main.xml" value="0.10410334346504559" />

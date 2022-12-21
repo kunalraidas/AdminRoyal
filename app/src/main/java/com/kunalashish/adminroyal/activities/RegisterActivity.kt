@@ -1,4 +1,4 @@
-package com.kunalashish.adminroyal
+package com.kunalashish.adminroyal.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -15,10 +15,10 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnRegister.setOnClickListener {
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
         binding.haveAccount.setOnClickListener {
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

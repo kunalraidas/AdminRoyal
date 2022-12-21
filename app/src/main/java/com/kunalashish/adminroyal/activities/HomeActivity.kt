@@ -28,7 +28,7 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         coordinatorLayout = findViewById(R.id.coordinator)
-        drawerLayout = findViewById(R.id.drawerLayout)
+        drawerLayout = findViewById(R.id.drawer_layout)
         toolbar = findViewById(R.id.toolbar)
         frameLayout = findViewById(R.id.frame)
         navigationView = findViewById(R.id.navigation)
