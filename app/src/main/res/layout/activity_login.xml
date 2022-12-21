@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/login_title"
@@ -13,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/login_title"
+        android:textAlignment="center"
         style="@style/Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,8 +26,9 @@
         android:id="@+id/login_sub_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="50dp"
         android:text="@string/login_sub_title"
+        android:textAlignment="center"
         style="@style/SubTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,6 +49,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_email"
             style="@style/TextInputEditText"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:ignore="TouchTargetSizeCheck" />
@@ -70,6 +74,7 @@
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/black"
             android:inputType="textPassword"
             tools:ignore="TouchTargetSizeCheck" />
 

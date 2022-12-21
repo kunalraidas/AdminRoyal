@@ -12,7 +12,7 @@
     <string name="login_title">LOGIN TO APP</string>
     <string name="login_sub_title">
         <font color="#00C9B8"><b>Login </b></font>if you already have an account</string>
-    <string name="login_email">Your Email or Username</string>
+    <string name="login_email">Your Email</string>
     <string name="login_password">YOUR PASSWORD</string>
     <string name="register_confirm_password">Confirm password</string>
     <string name="login_forgot_pw">Forgot Password</string>
