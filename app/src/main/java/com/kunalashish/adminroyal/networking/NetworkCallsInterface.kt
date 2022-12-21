@@ -9,17 +9,17 @@ import retrofit2.http.POST
 
 interface NetworkCallsInterface
 {
-    // Admin Registration
-   // @Header("Content-Type: application/json")
-    @POST("${Constant.API_VERSION}/admin/register")
-    suspend fun adminRegister(
-        @Body admin: Admin
-    ):Simple_Response
-
-    // Admin Login
-    @POST("${Constant.API_VERSION}/admin/login")
-    suspend fun loginRegister(
-        @Body admin: Admin
-    )
+//    // Admin Registration
+//   // @Header("Content-Type: application/json")
+//    @POST("${Constant.API_VERSION}/admin/register")
+//    suspend fun adminRegister(
+//        @Body admin: Admin
+//    ):Simple_Response
+//
+//    // Admin Login
+//    @POST("${Constant.API_VERSION}/admin/login")
+//    suspend fun loginRegister(
+//        @Body admin: Admin
+//    )
 
 }
