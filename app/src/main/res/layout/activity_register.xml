@@ -87,6 +87,7 @@
         android:layout_marginTop="15dp"
         android:hint="@string/login_password"
         style="@style/TextInputLayout"
+        app:passwordToggleTint="@color/black"
         app:counterMaxLength="16"
         app:counterEnabled="true"
         app:passwordToggleEnabled="true"
