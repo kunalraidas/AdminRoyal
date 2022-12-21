@@ -35,7 +35,7 @@
         app:layout_constraintTop_toTopOf="@id/login_title" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_email"
+        android:id="@+id/email_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -47,7 +47,7 @@
         app:startIconDrawable="@drawable/ic_circle_account">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_email"
+            android:id="@+id/edt_Email"
             style="@style/TextInputEditText"
             android:textColor="@color/black"
             android:layout_width="match_parent"
@@ -58,7 +58,7 @@
 
     <!--    3 PASSWORD -->
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/til_password"
+        android:id="@+id/password_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -66,11 +66,11 @@
         style="@style/TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_email"
+        app:layout_constraintTop_toBottomOf="@id/email_container"
         app:startIconDrawable="@drawable/ic_lock">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_password"
+            android:id="@+id/edt_password"
             style="@style/TextInputEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_password"/>
+        app:layout_constraintTop_toBottomOf="@id/password_container"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
