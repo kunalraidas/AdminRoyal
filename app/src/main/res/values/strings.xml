@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NewRoyalMobile</string>
+    <string name="app_name">RoyalMobile(Admin)</string>
     <string name="started_title">Hello You!</string>
     <string name="started_sub_title">
         Nice to meet you, come join our community!
@@ -12,7 +12,7 @@
     <string name="login_title">LOGIN TO APP</string>
     <string name="login_sub_title">
         <font color="#00C9B8"><b>Login </b></font>if you already have an account</string>
-    <string name="login_email">Your Email or Username</string>
+    <string name="login_email">Your Email</string>
     <string name="login_password">YOUR PASSWORD</string>
     <string name="register_confirm_password">Confirm password</string>
     <string name="login_forgot_pw">Forgot Password</string>
